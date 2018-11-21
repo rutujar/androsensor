@@ -3,6 +3,7 @@ python: 3.6
 cache: pip
 before_install:
   - pip install matplotlib
+  - pip install pandas
 before_script:
     - easy_install distribute 
 script: 
