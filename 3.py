@@ -1,4 +1,5 @@
 import csv  
+import pandas as pd
 import matplotlib.pyplot as plt  
 andro_movelist = pd.read_csv("data.csv")  
 andro_movelist.head()  
