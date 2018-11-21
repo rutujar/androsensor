@@ -1,0 +1,8 @@
+language: python
+python: 3.6
+cache: pip
+before_script:
+    - easy_install distribute 
+script: 
+    - python 1.py
+    - python 2.py
