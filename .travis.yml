@@ -4,5 +4,5 @@ cache: pip
 before_script:
     - easy_install distribute 
 script: 
-    - python 1.py
+    - python andro.py
     - python 2.py
