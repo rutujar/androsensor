@@ -1,6 +1,6 @@
 import csv  
 import matplotlib.pyplot as plt  
-outfile = open("defaultdata.csv","r")  
+outfile = open("data.csv","r")  
  
 file=csv.reader(outfile)  
 next(file, None)  
