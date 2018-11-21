@@ -11,4 +11,5 @@ script:
   - python 2.py
   - python 3.py
   - python 4.py
+  - python androsensor.py
     
