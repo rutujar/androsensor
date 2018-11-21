@@ -5,7 +5,10 @@ before_install:
   - pip install matplotlib
   - pip install pandas
 before_script:
-    - easy_install distribute 
+  - easy_install distribute 
 script: 
-    - python 1.py
-    - python 2.py
+  - python 1.py
+  - python 2.py
+  - python 3.py
+  - python 4.py
+    
