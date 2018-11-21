@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt  
 	  
 	  
-DATA = pd.read_csv('defaultdata.csv', sep=',')  
+DATA = pd.read_csv('data.csv', sep=',')  
   
 X_AXIS = DATA['ACCEX']  
 Y_AXIS = DATA['ACCEY']  
